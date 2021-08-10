@@ -1,0 +1,174 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_0039281023
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_0039281023 J 0 40 Y Y 1 F N
+F0 "J" -100 100 50 H V L CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_0039281023" 0 -130 50 H V C CNN
+F2 "digikey-footprints:HeaderPin_2x2_P4.2_Drill1.4mm" 205 215 60 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" 205 310 60 H I L CNN
+F4 "WM3801-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "0039281043" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/molex/0039281043/WM3801-ND/61400" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 4POS 4.2MM" 200 1000 60 H I L CNN "Description"
+F11 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -100 50 100 -50 1 1 0 f
+S -65 25 -15 -25 1 1 0 F
+S 15 10 65 -25 1 1 0 F
+P 4 0 1 0 15 10 30 25 50 25 65 10 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_0039288060
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_0039288060 J 0 40 Y Y 1 F N
+F0 "J" 45 170 50 H V L CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_0039288060" 265 -165 50 H V C CNN
+F2 "digikey-footprints:HeaderPin_2x2_P4.2_Drill1.4mm" 210 200 60 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" 200 300 60 H I L CNN
+F4 "WM3801-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "0039281043" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/molex/0039281043/WM3801-ND/61400" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 4POS 4.2MM" 200 1000 60 H I L CNN "Description"
+F11 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 55 -25 105 -75 0 1 0 F
+S -125 100 125 -100 1 1 0 f
+S -105 65 -55 15 1 1 0 F
+S -55 -40 -105 -75 1 1 0 F
+S -25 50 25 15 1 1 0 F
+S 25 -25 -25 -75 1 1 0 F
+P 4 0 1 0 -55 -40 -70 -25 -90 -25 -105 -40 F
+P 4 0 1 0 -25 50 -10 65 10 65 25 50 F
+P 7 0 1 0 55 50 55 15 105 15 105 50 90 65 70 65 55 50 F
+X ~ 1 225 50 100 L 50 50 1 1 P
+X ~ 2 225 -50 100 L 50 50 1 1 P
+X ~ 3 0 -200 100 U 50 50 1 1 P
+X ~ 4 -225 -50 100 R 50 50 1 1 P
+X ~ 5 -225 50 100 R 50 50 1 1 P
+X ~ 6 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_182-037-113R541
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_182-037-113R541 P 0 40 Y Y 1 F N
+F0 "P" 0 550 50 H V C CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_182-037-113R541" 0 -550 50 H V C CNN
+F2 "" -900 40 50 H I C CNN
+F3 "" -900 40 50 H I C CNN
+DRAW
+A -899 41 59 910 -1487 0 1 0 N -900 100 -950 10
+A -849 -41 59 -910 -1504 0 1 0 N -850 -100 -900 -70
+A 849 -41 59 -296 -890 0 1 0 N 900 -70 850 -100
+A 899 41 59 890 -313 0 1 0 N 900 100 950 10
+C -900 40 30 0 1 0 F
+C -850 -40 30 0 1 0 F
+C -800 40 30 1 1 0 F
+C -750 -40 30 1 1 0 F
+C -700 40 30 1 1 0 F
+C -650 -40 30 1 1 0 F
+C -600 40 30 1 1 0 F
+C -550 -40 30 1 1 0 F
+C -500 40 30 1 1 0 F
+C -450 -40 30 1 1 0 F
+C -400 40 30 1 1 0 F
+C -350 -40 30 1 1 0 F
+C -300 40 30 1 1 0 F
+C -250 -40 30 1 1 0 F
+C -200 40 30 1 1 0 F
+C -150 -40 30 1 1 0 F
+C -100 40 30 1 1 0 F
+C -50 -40 30 1 1 0 F
+C 0 40 30 1 1 0 F
+C 50 -40 30 1 1 0 F
+C 100 40 30 1 1 0 F
+C 150 -40 30 1 1 0 F
+C 200 40 30 1 1 0 F
+C 250 -40 30 1 1 0 F
+C 300 40 30 1 1 0 F
+C 350 -40 30 1 1 0 F
+C 400 40 30 1 1 0 F
+C 450 -40 30 1 1 0 F
+C 500 40 30 1 1 0 F
+C 550 -40 30 1 1 0 F
+C 600 40 30 1 1 0 F
+C 650 -40 30 1 1 0 F
+C 700 40 30 1 1 0 F
+C 750 -40 30 1 1 0 F
+C 800 40 30 1 1 0 F
+C 850 -40 30 1 1 0 F
+C 900 40 30 1 1 0 F
+P 2 0 1 0 -950 10 -900 -70 N
+P 2 0 1 0 -850 -100 850 -100 N
+P 2 0 1 0 900 -70 950 10 N
+P 2 0 1 0 900 100 -900 100 N
+X ~ 1 900 200 100 D 50 50 1 1 P
+X ~ 10 0 200 100 D 50 50 1 1 P
+X ~ 11 -100 200 100 D 50 50 1 1 P
+X ~ 12 -200 200 100 D 50 50 1 1 P
+X ~ 13 -300 200 100 D 50 50 1 1 P
+X ~ 14 -400 200 100 D 50 50 1 1 P
+X ~ 15 -500 200 100 D 50 50 1 1 P
+X ~ 16 -600 200 100 D 50 50 1 1 P
+X ~ 17 -700 200 100 D 50 50 1 1 P
+X ~ 18 -800 200 100 D 50 50 1 1 P
+X ~ 19 -900 200 100 D 50 50 1 1 N
+X ~ 2 800 200 100 D 50 50 1 1 P
+X ~ 20 850 -200 100 U 50 50 1 1 P
+X ~ 21 750 -200 100 U 50 50 1 1 P
+X ~ 22 650 -200 100 U 50 50 1 1 P
+X ~ 23 550 -200 100 U 50 50 1 1 P
+X ~ 24 450 -200 100 U 50 50 1 1 P
+X ~ 25 350 -200 100 U 50 50 1 1 P
+X ~ 26 250 -200 100 U 50 50 1 1 P
+X ~ 27 150 -200 100 U 50 50 1 1 P
+X ~ 28 50 -200 100 U 50 50 1 1 P
+X ~ 29 -50 -200 100 U 50 50 1 1 P
+X ~ 3 700 200 100 D 50 50 1 1 P
+X ~ 30 -150 -200 100 U 50 50 1 1 P
+X ~ 31 -250 -200 100 U 50 50 1 1 P
+X ~ 32 -350 -200 100 U 50 50 1 1 P
+X ~ 33 -450 -200 100 U 50 50 1 1 P
+X ~ 34 -550 -200 100 U 50 50 1 1 P
+X ~ 35 -650 -200 100 U 50 50 1 1 P
+X ~ 36 -750 -200 100 U 50 50 1 1 P
+X ~ 37 -850 -200 100 U 50 50 1 1 P
+X ~ 4 600 200 100 D 50 50 1 1 P
+X ~ 5 500 200 100 D 50 50 1 1 P
+X ~ 6 400 200 100 D 50 50 1 1 P
+X ~ 7 300 200 100 D 50 50 1 1 P
+X ~ 8 200 200 100 D 50 50 1 1 P
+X ~ 9 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GNDREF
+#
+DEF power_GNDREF #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDREF" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X GNDREF 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
