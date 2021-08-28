@@ -1,4 +1,4 @@
-update=8/28/2021 10:12:09 AM
+update=8/28/2021 2:04:01 PM
 version=1
 last_client=kicad
 [general]
@@ -25,14 +25,14 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Relay-Module-Netlist.net
+LastNetListRead=Digital-Output-Module.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.1524
+MinTrackWidth=0.2
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
@@ -195,7 +195,7 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
-Type=1
+Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=1

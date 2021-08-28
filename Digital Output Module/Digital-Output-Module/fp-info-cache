@@ -1,4 +1,4 @@
-19217698349363834
+19219328526847729
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83026,6 +83026,13 @@ varistor SIOV
 0
 2
 2
+custom-footprint-library
+182-037-213R181
+
+
+0
+37
+37
 custom-footprint-library
 0039281023
 
