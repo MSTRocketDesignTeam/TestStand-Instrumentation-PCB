@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name digikey-footprints)(type KiCad)(uri C:/Users/DasBo/Downloads/digikey-kicad-library-master/digikey-kicad-library-master/digikey-footprints.pretty)(options "")(descr ""))
-  (lib (name Voltage_Input_Module)(type KiCad)(uri ${KIPRJMOD}/Voltage_Input_Module.pretty)(options "")(descr ""))
-)
