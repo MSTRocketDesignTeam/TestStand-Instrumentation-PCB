@@ -1,0 +1,53 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 2ad69cc5-1496-44a1-8884-112059c5a97a)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Digital Output Module (DOM)")
+    (date "2022-07-14")
+    (rev "1.0")
+    (company "Missouri S&T Rocket Design Team")
+    (comment 1 "Seth Sievers")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 68.58 35.56) (size 21.59 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 255 255 194 1.0000))
+    (uuid 23ce54c1-fa71-427d-aa9f-6ac130f31dd0)
+    (property "Sheet name" "Output Channel" (id 0) (at 68.58 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "hierarchical_sheets/fet_output_channel.kicad_sch" (id 1) (at 68.58 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/23ce54c1-fa71-427d-aa9f-6ac130f31dd0" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/23ce54c1-fa71-427d-aa9f-6ac130f31dd0/7f5fcf25-8f29-46fe-8fae-08b9494f1517"
+      (reference "#PWR0101") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/23ce54c1-fa71-427d-aa9f-6ac130f31dd0/8c7b9f57-0d8d-499a-9da5-1e62ee5c82bf"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/23ce54c1-fa71-427d-aa9f-6ac130f31dd0/272ed9e8-60a6-44e8-871d-08c36f018dec"
+      (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/23ce54c1-fa71-427d-aa9f-6ac130f31dd0/eee2ad48-1403-4d46-af24-ff192c566d6b"
+      (reference "J1") (unit 1) (value "GX16-3") (footprint "")
+    )
+    (path "/23ce54c1-fa71-427d-aa9f-6ac130f31dd0/2e1c68ea-f0f3-40e7-ae18-ef3fe9534799"
+      (reference "Q1") (unit 1) (value "IRF9Z24NPBF") (footprint "DOM:TO-220F-3_Horizontal_TabDown_SMD_PAD")
+    )
+  )
+)
