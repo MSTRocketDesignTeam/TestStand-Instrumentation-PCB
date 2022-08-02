@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Users\Seth\Documents\GitHub\TestStand-Instrumentation-PCB\Fet_Stress_Test\kicad\fet_stress_test.kicad_sch</source>
+    <date>8/2/2022 11:06:18 AM</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Fet Stress Test</title>
+        <company>Missouri S&amp;T RDT</company>
+        <rev>1.0</rev>
+        <date>2022-07-15</date>
+        <source>fet_stress_test.kicad_sch</source>
+        <comment number="1" value="Seth Sievers"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>Green</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57c976ac-f776-4970-814b-32a37b73e6ca</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>14V</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.panjit.com.tw/upload/datasheet/BZT52-C2V4_SERIES.pdf</datasheet>
+      <fields>
+        <field name="Seller">https://www.digikey.com/en/products/detail/panjit-international-inc/BZT52-C14-R1-00001/15800759</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Seller" value="https://www.digikey.com/en/products/detail/panjit-international-inc/BZT52-C14-R1-00001/15800759"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c609368f-745a-41aa-90b5-e1122a8830c7</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>824500241</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/824500241.pdf</datasheet>
+      <fields>
+        <field name="Seller">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/824500241/5870797</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Seller" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/824500241/5870797"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f7b2785-063a-4caa-a704-b0271789bd0b</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Yellow</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe183130-88a9-4346-a27b-a78aea0fa6f8</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>GX_16-2</value>
+      <footprint>DOM:GX_16-2</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccb34f55-516d-42e0-ab47-8dfc9b427cea</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>GX_16-3</value>
+      <footprint>DOM:GX_16-3</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc85a38e-d27d-41d9-bb4a-a89a289f2ab1</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>GX_16-4</value>
+      <footprint>DOM:GX_16-4</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2df4ac9-3319-4dc4-9ed7-00e6290fac21</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30036.pdf</datasheet>
+      <fields>
+        <field name="Seller">https://www.digikey.com/en/products/detail/diodes-incorporated/MMBT3904-7-F/814494</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Seller" value="https://www.digikey.com/en/products/detail/diodes-incorporated/MMBT3904-7-F/814494"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>266fe901-9b3c-4847-abe9-a3e971729ace</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>~</value>
+      <footprint>DOM:TO-220F-3_Horizontal_TabDown_SMD_PAD</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irf9z24npbf.pdf?fileId=5546d462533600a40153561218961ddb</datasheet>
+      <fields>
+        <field name="Seller">https://www.digikey.com/en/products/detail/infineon-technologies/IRF9Z24NPBF/811747</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF9540N" description="-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"/>
+      <property name="Seller" value="https://www.digikey.com/en/products/detail/infineon-technologies/IRF9Z24NPBF/811747"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c9049cf-5261-4eb1-8367-c9358633c7e4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7467cbf3-5a84-4aa3-b7b9-5d48b8b38214</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e21b12a-d6cd-40d5-80a4-47508f8996b6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a588dab-19c6-4d61-a2cf-9cbeb0fd3240</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4413c9c7-7361-4ab0-b945-58f025b659fe</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ce95325-4bfe-4545-8aa9-a236a32ad2e8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31a237d1-035e-43b1-a14c-4ecada92bae1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5Ω</value>
+      <footprint>Package_TO_SOT_THT:TO-247-2_Horizontal_TabDown</footprint>
+      <fields>
+        <field name="Seller">https://www.digikey.com/en/products/detail/ohmite/AP101-5R-F/13909864</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Seller" value="https://www.digikey.com/en/products/detail/ohmite/AP101-5R-F/13909864"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3f268fe-644b-4ae3-a6a8-464822bd5832</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>5Ω</value>
+      <footprint>Package_TO_SOT_THT:TO-247-2_Horizontal_TabDown</footprint>
+      <fields>
+        <field name="Seller">https://www.digikey.com/en/products/detail/ohmite/AP101-5R-F/13909864</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Seller" value="https://www.digikey.com/en/products/detail/ohmite/AP101-5R-F/13909864"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0daaecbb-31cb-48dc-a7e0-d425823428d7</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>GND</value>
+      <footprint>DOM:15x15mm_pad</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b478255-7d64-48f0-b250-962c7e802b2f</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>24V</value>
+      <footprint>DOM:15x15mm_pad</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2415bc16-ae5d-4f29-aa4b-07496cef0243</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>565bd914-2607-4b3e-98e2-e162d8bd6913</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ce486b4-ea50-4831-9633-f6c9fd2a5d22</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23ce6f18-7214-4692-83a1-23b634a5232e</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fet_stress_test.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bc7f406-08fb-4b04-af72-6cfd544617c0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF9540N">
+      <description>-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf9540n.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF9540N</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.irf.com/product-info/datasheets/data/irf9540n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>D:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>D:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>D:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/24V">
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/OUTPUT">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
