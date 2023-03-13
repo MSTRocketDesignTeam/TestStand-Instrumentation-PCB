@@ -33,8 +33,6 @@
       3,
       4,
       5,
-      6,
-      7,
       8,
       9,
       10,
@@ -68,7 +66,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Voltage_Input_Module.kicad_prl",
+    "filename": "Relay_Board_RevA.kicad_prl",
     "version": 3
   },
   "project": {
