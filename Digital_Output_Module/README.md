@@ -7,7 +7,7 @@ flowchart TD
 1{{Digital Output Module/}} --- 2(kicad/)
 1 --- 3(datasheets/)
 2 --- 4(hierarchical_sheets/)
-2 --- 5(libraries)
+2 --- 5(libraries/)
 5 --- 6(["*.pretty/"])
 4 --- 7([*.kicad_sch])
 2 --- 8([*.kicad_pro])
