@@ -4,7 +4,7 @@ This module will handle the DAQ's NI-9403 Digital I/O. It will contain the relay
 ## Directory Structure
 ```mermaid
 flowchart TD
-1{{Digital Output Module/}} --- 2(kicad/)
+1{{Digital_Output_Module/}} --- 2(kicad/)
 1 --- 3(datasheets/)
 2 --- 4(hierarchical_sheets/)
 2 --- 5(libraries/)
