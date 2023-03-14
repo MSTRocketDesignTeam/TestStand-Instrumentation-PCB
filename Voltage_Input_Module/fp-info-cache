@@ -1,4 +1,4 @@
-19826697213710235
+19841805884392016
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84517,3 +84517,66 @@ Voltage_Input_Module
 0
 4
 3
+Voltage_Input_Module
+T4140512041-000
+
+
+0
+4
+4
+Voltage_Input_Module
+T4143012031-000
+
+
+0
+3
+3
+powerpole-pp1545
+2x_Anderson_Powerpole-25A-RA-G11
+Use through-hole center to align with adjacent PowerPole connectors.  Do not rely on housing outlines.
+Anderson Powerpole 25A PCB right angle G11
+0
+2
+2
+powerpole-pp1545
+2x_Anderson_Powerpole-25A-RA-G12
+Use through-hole center to align with adjacent PowerPole connectors.  Do not rely on housing outlines.
+Anderson Powerpole 25A PCB right angle G12
+0
+2
+1
+powerpole-pp1545
+2x_Anderson_Powerpole-25A-S-H-G11
+Use through-hole center to align with adjacent PowerPole connectors.  Do not rely on housing outlines.
+Anderson Powerpole 25A PCB right angle G11
+0
+2
+2
+powerpole-pp1545
+2x_Anderson_Powerpole-25A-S-V-G11
+Use through-hole center to align with adjacent PowerPole connectors.  Do not rely on housing outlines.
+Anderson Powerpole 25A PCB right angle G11
+0
+2
+2
+powerpole-pp1545
+Anderson_Powerpole-25A-RA-G11
+Use through-hole center to align with adjacent PowerPole connectors.  Do not rely on housing outlines.
+Anderson Powerpole 25A PCB right angle G11
+0
+1
+1
+powerpole-pp1545
+Anderson_Powerpole-25A-RA-G12
+Use through-hole center to align with adjacent PowerPole connectors.  Do not rely on housing outlines.
+Anderson Powerpole 25A PCB right angle G12
+0
+1
+1
+powerpole-pp1545
+Anderson_Powerpole-25A-S-G11
+Use through-hole center to align with adjacent PowerPole connectors.  Do not rely on housing outlines.
+Anderson Powerpole 25A PCB right angle G11
+0
+1
+1
