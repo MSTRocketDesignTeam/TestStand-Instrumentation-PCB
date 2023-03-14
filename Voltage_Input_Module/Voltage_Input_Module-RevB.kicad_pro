@@ -437,8 +437,16 @@
       "4x_4_pin_connector"
     ],
     [
+      "4b1826b9-24f7-4536-9ddd-fd58213952f4",
+      "4x_4_pin_connector2"
+    ],
+    [
       "04e07a82-9043-4083-91f3-3793c775065c",
       "4x_4_pin_connector1"
+    ],
+    [
+      "f5646d02-c6d3-4d99-baca-8d453565ff1c",
+      "4x_4_pin_connector3"
     ]
   ],
   "text_variables": {}
