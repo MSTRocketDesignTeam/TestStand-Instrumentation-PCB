@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\RDT\Documents\GitHub\TestStand-Instrumentation-PCB\Voltage_Input_Module\kicad\voltage_input_revC\voltage_input_revC.kicad_sch</source>
+    <date>3/23/2023 23:32:56</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Voltage Input Breakout Board</title>
+        <company>Missouri S&amp;T  Rocket Design Team</company>
+        <rev>C</rev>
+        <date>2023-03-23</date>
+        <source>voltage_input_revC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Advisors: Jacob King, Seth Sievers"/>
+        <comment number="4" value="Author: Andrew Matteson"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>5747847-4</value>
+      <footprint>custom_libraries:5747847-4</footprint>
+      <datasheet>https://www.te.com/usa-en/product-5747847-4.datasheet.pdf</datasheet>
+      <libsource lib="custom_library" part="5747847-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="voltage_input_revC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21f58cff-446a-4c7c-aa14-401fa5c909ac</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="custom_library" part="5747847-4">
+      <docs>https://www.te.com/usa-en/product-5747847-4.datasheet.pdf</docs>
+      <footprints>
+        <fp>CONN_5747847-4_TYC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">5747847-4</field>
+        <field name="Footprint">custom_libraries:5747847-4</field>
+        <field name="Datasheet">https://www.te.com/usa-en/product-5747847-4.datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+        <pin num="11" name="11" type="unspecified"/>
+        <pin num="12" name="12" type="unspecified"/>
+        <pin num="13" name="13" type="unspecified"/>
+        <pin num="14" name="14" type="unspecified"/>
+        <pin num="15" name="15" type="unspecified"/>
+        <pin num="16" name="16" type="unspecified"/>
+        <pin num="17" name="17" type="unspecified"/>
+        <pin num="18" name="18" type="unspecified"/>
+        <pin num="19" name="19" type="unspecified"/>
+        <pin num="20" name="20" type="unspecified"/>
+        <pin num="21" name="21" type="unspecified"/>
+        <pin num="22" name="22" type="unspecified"/>
+        <pin num="23" name="23" type="unspecified"/>
+        <pin num="24" name="24" type="unspecified"/>
+        <pin num="25" name="25" type="unspecified"/>
+        <pin num="26" name="26" type="unspecified"/>
+        <pin num="27" name="27" type="unspecified"/>
+        <pin num="28" name="28" type="unspecified"/>
+        <pin num="29" name="29" type="unspecified"/>
+        <pin num="30" name="30" type="unspecified"/>
+        <pin num="31" name="31" type="unspecified"/>
+        <pin num="32" name="32" type="unspecified"/>
+        <pin num="33" name="33" type="unspecified"/>
+        <pin num="34" name="34" type="unspecified"/>
+        <pin num="35" name="35" type="unspecified"/>
+        <pin num="36" name="36" type="unspecified"/>
+        <pin num="37" name="37" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="custom_library">
+      <uri>C:\Users\RDT\Documents\GitHub\TestStand-Instrumentation-PCB\Voltage_Input_Module\kicad\voltage_input_revC/custom_library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Al0+">
+      <node ref="J1" pin="19" pinfunction="19" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/Al0-">
+      <node ref="J1" pin="37" pinfunction="37" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/Al1+">
+      <node ref="J1" pin="18" pinfunction="18" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/Al1-">
+      <node ref="J1" pin="36" pinfunction="36" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/Al2+">
+      <node ref="J1" pin="17" pinfunction="17" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/Al2-">
+      <node ref="J1" pin="35" pinfunction="35" pintype="unspecified"/>
+    </net>
+    <net code="7" name="/Al3+">
+      <node ref="J1" pin="16" pinfunction="16" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/Al4+">
+      <node ref="J1" pin="15" pinfunction="15" pintype="unspecified"/>
+    </net>
+    <net code="9" name="/Al4-">
+      <node ref="J1" pin="33" pinfunction="33" pintype="unspecified"/>
+      <node ref="J1" pin="34" pinfunction="34" pintype="unspecified"/>
+    </net>
+    <net code="10" name="/Al5+">
+      <node ref="J1" pin="14" pinfunction="14" pintype="unspecified"/>
+    </net>
+    <net code="11" name="/Al5-">
+      <node ref="J1" pin="32" pinfunction="32" pintype="unspecified"/>
+    </net>
+    <net code="12" name="/Al6+">
+      <node ref="J1" pin="13" pinfunction="13" pintype="unspecified"/>
+    </net>
+    <net code="13" name="/Al6-">
+      <node ref="J1" pin="31" pinfunction="31" pintype="unspecified"/>
+    </net>
+    <net code="14" name="/Al7+">
+      <node ref="J1" pin="12" pinfunction="12" pintype="unspecified"/>
+    </net>
+    <net code="15" name="/Al7-">
+      <node ref="J1" pin="30" pinfunction="30" pintype="unspecified"/>
+    </net>
+    <net code="16" name="/Al8+">
+      <node ref="J1" pin="9" pinfunction="9" pintype="unspecified"/>
+    </net>
+    <net code="17" name="/Al8-">
+      <node ref="J1" pin="27" pinfunction="27" pintype="unspecified"/>
+    </net>
+    <net code="18" name="/Al9+">
+      <node ref="J1" pin="8" pinfunction="8" pintype="unspecified"/>
+    </net>
+    <net code="19" name="/Al9-">
+      <node ref="J1" pin="26" pinfunction="26" pintype="unspecified"/>
+    </net>
+    <net code="20" name="/Al10+">
+      <node ref="J1" pin="7" pinfunction="7" pintype="unspecified"/>
+    </net>
+    <net code="21" name="/Al10-">
+      <node ref="J1" pin="25" pinfunction="25" pintype="unspecified"/>
+    </net>
+    <net code="22" name="/Al11+">
+      <node ref="J1" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="23" name="/Al11-">
+      <node ref="J1" pin="24" pinfunction="24" pintype="unspecified"/>
+    </net>
+    <net code="24" name="/Al12+">
+      <node ref="J1" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="25" name="/Al12-">
+      <node ref="J1" pin="23" pinfunction="23" pintype="unspecified"/>
+    </net>
+    <net code="26" name="/Al13+">
+      <node ref="J1" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="27" name="/Al13-">
+      <node ref="J1" pin="22" pinfunction="22" pintype="unspecified"/>
+    </net>
+    <net code="28" name="/Al14+">
+      <node ref="J1" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="29" name="/Al14-">
+      <node ref="J1" pin="21" pinfunction="21" pintype="unspecified"/>
+    </net>
+    <net code="30" name="/Al15+">
+      <node ref="J1" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="31" name="/Al15-">
+      <node ref="J1" pin="20" pinfunction="20" pintype="unspecified"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="J1" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="J1" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="J1" pin="28" pinfunction="28" pintype="unspecified"/>
+      <node ref="J1" pin="29" pinfunction="29" pintype="unspecified"/>
+    </net>
+    <net code="33" name="unconnected-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="1" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

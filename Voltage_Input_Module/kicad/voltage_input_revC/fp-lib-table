@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/RDT/Documents/GitHub/TestStand-Instrumentation-PCB/Voltage_Input_Module/kicad/libraries/footprints.pretty")(options "")(descr ""))
+  (lib (name "custom_library")(type "KiCad")(uri "${KIPRJMOD}/custom_library.pretty")(options "")(descr ""))
+  (lib (name "custom_libraries")(type "KiCad")(uri "C:/Users/RDT/Documents/GitHub/TestStand-Instrumentation-PCB/Voltage_Input_Module/kicad/libraries/custom_libraries.pretty")(options "")(descr ""))
+)

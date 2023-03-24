@@ -1,0 +1,380 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 66a63bb1-b3ab-4e25-b5aa-3af5f586022c)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x02" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x02_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "custom_library:T4143012041-000" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 8.89 -12.7 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "T4143012041-000" (at 10.16 5.08 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "custom_libraries:T4143012041-000" (at 10.16 7.62 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "https://www.te.com/usa-en/product-T4143012041-000.datasheet.pdf" (at 8.89 -15.24 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "ki_fp_filters" "CONN4_T4143012041" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "T4143012041-000_1_1"
+        (polyline
+          (pts
+            (xy 5.08 -10.16)
+            (xy 12.7 -10.16)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 5.08 -10.16)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -7.62)
+            (xy 5.08 -7.62)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -7.62)
+            (xy 8.89 -8.4582)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -7.62)
+            (xy 8.89 -6.7818)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -5.08)
+            (xy 5.08 -5.08)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -5.08)
+            (xy 8.89 -5.9182)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -5.08)
+            (xy 8.89 -4.2418)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 5.08 -2.54)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -3.3782)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -1.7018)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 5.08 0)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 -0.8382)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 0.8382)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 -10.16)
+            (xy 12.7 2.54)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 2.54)
+            (xy 5.08 2.54)
+          )
+          (stroke (width 0.127) (type solid))
+          (fill (type none))
+        )
+        (pin output line (at 0 0 0) (length 5.08)
+          (name "1" (effects (font (size 1.4986 1.4986))))
+          (number "1" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin power_in line (at 0 -2.54 0) (length 5.08)
+          (name "2" (effects (font (size 1.4986 1.4986))))
+          (number "2" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin power_out line (at 0 -5.08 0) (length 5.08)
+          (name "3" (effects (font (size 1.4986 1.4986))))
+          (number "3" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin input line (at 0 -7.62 0) (length 5.08)
+          (name "4" (effects (font (size 1.4986 1.4986))))
+          (number "4" (effects (font (size 1.4986 1.4986))))
+        )
+      )
+    )
+  )
+
+
+  (wire (pts (xy 87.63 67.31) (xy 102.87 67.31))
+    (stroke (width 0) (type default))
+    (uuid c8e1c4bf-4ac9-41df-8c4d-36930547fc0e)
+  )
+  (wire (pts (xy 87.63 69.85) (xy 102.87 69.85))
+    (stroke (width 0) (type default))
+    (uuid f5604db7-ece9-4955-8d55-ec60d7f28ce1)
+  )
+
+  (hierarchical_label "signal_in" (shape input) (at 102.87 72.39 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ab524ee5-ee4a-4125-b944-68257b9edaea)
+  )
+  (hierarchical_label "signal_out" (shape output) (at 102.87 64.77 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ed668071-3010-473e-b779-408fb7287184)
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 82.55 69.85 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 65888bf4-0298-456c-8971-827db6b3acea)
+    (property "Reference" "J3" (at 82.55 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x02" (at 82.55 73.66 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "custom_libraries:powerpole-1545-2x1" (at 82.55 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 82.55 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 30bd7de8-7f70-4e64-80d0-c9a4ed8a2d6d))
+    (pin "2" (uuid 3cfe2d3c-46de-4dbe-877d-de4d7d111d56))
+    (instances
+      (project "voltage_input_revC"
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/bd1d19e9-0237-4310-aaea-5d450cc02d92"
+          (reference "J3") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/3b431700-c16b-497e-b9ab-7f8185822b5f"
+          (reference "J4") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/3fea3b95-37b3-4ed6-9f3e-2331c43b9fb1"
+          (reference "J6") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/5bd90b5b-1f53-4b9d-b91a-0ecab666451e"
+          (reference "J8") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/59167fe4-672b-45c1-b7a3-8b21369d1ffd"
+          (reference "J10") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/d88549a4-fd82-4df1-9371-996172e29850"
+          (reference "J12") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/4540e8c2-e254-48ea-b049-6ae43f8634ec"
+          (reference "J14") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/80f0acbd-6f33-43ea-bfb2-f1839874f5b2"
+          (reference "J16") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/25ff17b7-e299-4e85-a406-e78403fe26df"
+          (reference "J18") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/d00f4568-5e3d-4163-891a-be0fa40adfb8"
+          (reference "J20") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/e3827e04-1489-4cf9-a060-8b0fb256f85b"
+          (reference "J22") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/b5e24955-f0bf-4f24-b245-15d7650dd48d"
+          (reference "J24") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/e547ac3d-f28c-4dc2-81b9-c0386aaaaff2"
+          (reference "J26") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/4fbbbb42-8e46-4186-b7ae-25728c1d55ed"
+          (reference "J28") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/3dc67075-e378-44da-8d7e-d78d9036b1e0"
+          (reference "J30") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/c000c5ef-6766-456b-9e1b-e732133e48cc"
+          (reference "J32") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "custom_library:T4143012041-000") (at 102.87 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid febf91df-f5fd-49dd-90ad-c9dc4423d539)
+    (property "Reference" "J2" (at 116.84 66.675 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "T4143012041-000" (at 116.84 69.215 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "custom_libraries:T4143012041-000" (at 113.03 57.15 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "https://www.te.com/usa-en/product-T4143012041-000.datasheet.pdf" (at 116.84 71.755 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (pin "1" (uuid c678fe0f-e55e-4afb-85c6-8c447f80f18c))
+    (pin "2" (uuid 93c917cc-a46d-49a6-9d9c-87362edffd51))
+    (pin "3" (uuid 1d8bf422-5da4-4dcc-8e57-e0485b2377b2))
+    (pin "4" (uuid 69d44cc2-c6c5-4d73-b456-e059dbf28c45))
+    (instances
+      (project "voltage_input_revC"
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/bd1d19e9-0237-4310-aaea-5d450cc02d92"
+          (reference "J2") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/3b431700-c16b-497e-b9ab-7f8185822b5f"
+          (reference "J5") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/3fea3b95-37b3-4ed6-9f3e-2331c43b9fb1"
+          (reference "J7") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/5bd90b5b-1f53-4b9d-b91a-0ecab666451e"
+          (reference "J9") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/59167fe4-672b-45c1-b7a3-8b21369d1ffd"
+          (reference "J11") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/d88549a4-fd82-4df1-9371-996172e29850"
+          (reference "J13") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/4540e8c2-e254-48ea-b049-6ae43f8634ec"
+          (reference "J15") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/80f0acbd-6f33-43ea-bfb2-f1839874f5b2"
+          (reference "J17") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/25ff17b7-e299-4e85-a406-e78403fe26df"
+          (reference "J19") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/d00f4568-5e3d-4163-891a-be0fa40adfb8"
+          (reference "J21") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/e3827e04-1489-4cf9-a060-8b0fb256f85b"
+          (reference "J23") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/b5e24955-f0bf-4f24-b245-15d7650dd48d"
+          (reference "J25") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/e547ac3d-f28c-4dc2-81b9-c0386aaaaff2"
+          (reference "J27") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/4fbbbb42-8e46-4186-b7ae-25728c1d55ed"
+          (reference "J29") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/3dc67075-e378-44da-8d7e-d78d9036b1e0"
+          (reference "J31") (unit 1)
+        )
+        (path "/8ce21293-ec61-4589-b6e0-775962e481c9/c000c5ef-6766-456b-9e1b-e732133e48cc"
+          (reference "J33") (unit 1)
+        )
+      )
+    )
+  )
+)
