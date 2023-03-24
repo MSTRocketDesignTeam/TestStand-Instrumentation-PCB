@@ -6,7 +6,7 @@
 
   (title_block
     (title "Voltage Input Breakout Board")
-    (date "2023-03-23")
+    (date "2023-03-24")
     (rev "C")
     (company "Missouri S&T  Rocket Design Team")
     (comment 3 "Advisors: Jacob King, Seth Sievers")
