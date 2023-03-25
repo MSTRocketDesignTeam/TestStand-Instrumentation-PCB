@@ -360,7 +360,7 @@
     (property "Value" "Conn_01x02" (at 80.01 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "custom_libraries:powerpole-1545-2x1" (at 80.01 69.85 0)
+    (property "Footprint" "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side" (at 80.01 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 80.01 69.85 0)
