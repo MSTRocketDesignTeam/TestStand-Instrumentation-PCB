@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Relay_Board_RevA.kicad_pro",
+    "filename": "digital_output_module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -312,18 +312,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -334,8 +324,12 @@
   },
   "sheets": [
     [
-      "25611e03-5a47-4582-976f-a5e630ca1266",
+      "b62c2f25-5357-4427-9763-8fa7314ae7c3",
       ""
+    ],
+    [
+      "8e375fcd-78a4-44e3-b278-544631cdf948",
+      "Voltage Selector"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,39 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b62c2f25-5357-4427-9763-8fa7314ae7c3)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Digital Output Module ")
+    (date "2023-03-27")
+    (rev "1")
+    (company "Missouri S&T Rocket Design Team")
+    (comment 1 "Seth Sievers")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 110.49 64.77) (size 20.32 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid 8e375fcd-78a4-44e3-b278-544631cdf948)
+    (property "Sheetname" "Voltage Selector" (at 110.49 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "hierarchical_sheets/voltage_selector.kicad_sch" (at 110.49 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "digital_output_module"
+        (path "/b62c2f25-5357-4427-9763-8fa7314ae7c3" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
