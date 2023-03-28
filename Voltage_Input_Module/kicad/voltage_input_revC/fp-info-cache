@@ -1,4 +1,4 @@
-21681937242950933
+21685297180383836
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61131,6 +61131,13 @@ Square_Anderson_2_V_Side_By_Side_PV
 2
 2
 MRDT_Connectors
+Square_Anderson_2_V_Side_By_Side_Symbolic
+
+
+0
+0
+0
+MRDT_Connectors
 Square_Anderson_3_H_Side_By_Side
 
 
@@ -90523,6 +90530,13 @@ T4143012041-000
 0
 4
 4
+custom_libraries
+T4143012041-000_Symbolic
+
+
+0
+0
+0
 custom_libraries
 powerpole-1545-1x1
 
