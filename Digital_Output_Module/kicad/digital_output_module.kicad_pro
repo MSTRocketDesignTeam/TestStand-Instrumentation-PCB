@@ -330,6 +330,10 @@
     [
       "8e375fcd-78a4-44e3-b278-544631cdf948",
       "Voltage Selector"
+    ],
+    [
+      "61152b0f-b719-4b78-a096-1c3a1fd01b7b",
+      "Relay Stage"
     ]
   ],
   "text_variables": {}
